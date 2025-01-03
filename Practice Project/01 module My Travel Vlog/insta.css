@@ -1,0 +1,247 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+body{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 14px;
+  color: #fff;
+  background: #000;  
+}
+
+::selection {
+  background: #FB206D;
+}
+
+.main_content {
+  display: flex;
+  width: 980px;
+  padding: 20px;
+  margin: 50px auto;
+  justify-content: space-between;
+  padding: 72px 0 112px;
+  align-items: center;
+}
+.left_side{
+  flex-basis: 540px;
+  height: 538.84px;
+  position: relative;
+}
+.left_side .back_img img {
+  background: #000;
+  border: 4px solid #444950;
+  border-radius: 30px;
+}
+
+.left_side .front_img {
+  position: absolute;
+  top: -8px;
+  left: 70px;
+  background: #000;
+  border: 4px solid #444950;
+  border-radius: 30px;
+}
+
+.right_side {
+  flex-basis: 396px;
+}
+.right_side_top {
+  border: 1px solid #444950;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 18px;
+}
+.left_side img {
+  width: 250px;
+  height: 539px;
+}
+.right_side_top form{
+  text-align: center;
+}
+.right_side_top form input {
+  width: 100%;
+  display: block;
+  border: 1px solid #444950;
+  padding: 14px 16px;
+  font-size: 17px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  background:#181a1d ;
+}
+.right_side_top button {
+  background: #2597F5;
+  color: #fff;
+  width: 100%;
+  height: 45px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  display: block;
+  text-align: center;
+  border: 0;
+  border-radius: 6px;
+}
+
+.right_side_top button:hover {
+  background: #0065d0;
+  cursor: pointer;
+}
+
+.right_side_top button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.right_side_top img{
+  width: 175px;
+}
+.right_side_top .login img {
+  width: 30px;
+}
+hr {
+  margin-bottom: 15px;
+}
+.login {
+  position: relative;
+}
+.login div{
+  position: absolute;
+  left: 65px;
+}
+.login a {
+  font-size: 16px;
+  display: block;
+  color: #007bfc;
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+.login a:hover{
+  color: #fff;
+}
+.passforget {
+  color: #fff;
+  text-decoration: none;
+  position: relative;
+}
+.passforget a {
+  color: #fff;
+  text-decoration: none;
+}
+.passforget:hover {
+  font-weight: bold;
+  bottom: -5px;
+}
+
+.right_side_middle {
+  border: 1px solid #444950;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 18px;
+}
+.right_side_middle a {
+  color: #007bfc;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.right_side_bottom {
+  text-align: center;
+}
+.right_side_bottom p {
+  margin-bottom: 15px;
+}
+.right_side_bottom .store {
+  width: 100%;
+}
+.right_side_bottom .store .right_side_middle_apple {
+  width: 190px;
+  position: absolute;
+}
+.right_side_bottom .store .right_side_middle_google {
+  width: 190px;
+  position: absolute;
+  display: inline;
+}
+
+.footer_area {
+#3e474d
+}
+.footer_area ul {
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.footer_area ul li {
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.footer_area ul li a {
+  text-decoration: none;
+  color: #b4c6d1;
+  padding: 10px;
+}
+.footer_area .selection p {
+  text-align: center;
+  color: #b4c6d1;
+  display: inline-block;
+}
+.footer_area .selection {
+  display: block;
+  text-align: center;
+}
+.footer_area .selection select {
+  background: #000;
+  border: none;
+  color: #b4c6d1;
+  cursor: pointer;
+}
+.footer_area ul li a:hover {
+  text-decoration: underline;
+}
+
+.border_or {
+  display: inline-block;
+  position: relative;
+}
+.border_or p {
+  color: #b4c6d1;
+  font-weight: bold;
+  display: inline-block;
+  position: absolute;
+    margin-bottom: 10px;
+  left: -8px;
+  top: -20px;
+}
+
+.border_or .left_border {
+  background: #444950;
+  border: 1px solid #444950;
+  width: 170px;
+  margin: 10px;
+  display: inline-block;
+  position: absolute;
+  margin-bottom: 10px;
+  left: -195px;
+  top: -20px;
+}
+
+.border_or .right_border {
+  background: #444950;
+  border: 1px solid #444950;
+  width: 170px;
+  margin: 10px;
+  display: inline-block;
+  position: absolute;
+  margin-bottom: 10px;
+  left: 8px;
+  top: -20px;
+
+}
